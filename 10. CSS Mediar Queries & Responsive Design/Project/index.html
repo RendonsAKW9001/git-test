@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- header section -->
+    <header>
+        <h1>My Personal Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <!-- main content -->
+        <main>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Welcome to my personal blog@ I share my thoughts on web development, technology and more.</p>
+            </section>
+
+            <!-- blog articles -->
+            <article>
+                <h2>Understanding Semantic HTML</h2>
+                <p>Semantic HTML is a way to white HTML that describes content...</p>
+                <img src="./images/eggs and noodles.jpg" alt="Eggs and Noodles" width="500" />
+            </article>
+            <article>
+                <h2>How to add Media in HTML</h2>
+                <p>Adding images, videos and audio files to a webpageis a fun experience.</p>
+                <audio controls>
+                    <source src="Clock Tower (Remix).mp3" type="audio/mpeg" />
+
+                </audio>
+            </article>
+            <!-- embedding youtube video -->
+            <section>
+                <h2>Watch my latest video</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/W5O5C7p4pqk?si=ghMTU6CEfM0U2EM9"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+        </main>
+
+        <!-- sidebar -->
+        <aside>
+            <h3>More links</h3>
+            <ul>
+                <li><a href="#">My Portfolio</a></li>
+                <li><a href="#">Follow me on other platforms</a></li>
+                <li><a href="#">Subscribe to youtube</a></li>
+            </ul>
+        </aside>
+    </div>
+    <!-- footer -->
+    <footer id="contract">
+        <p> contact me at:
+            <a href="mailto:example@email.com">example@email.com</a>
+        </p>
+        <p>Call me at: <a href="tel:+1234567890">+1 (234) 567-8900</a></p>
+        <p>&copy; 2026 My Blog.</p>
+    </footer>
+</body>
+
+</html>
